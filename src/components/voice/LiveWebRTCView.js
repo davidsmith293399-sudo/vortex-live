@@ -13,7 +13,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { THEME } from '../../theme/colors';
 
 // Default live signaling and WebRTC interface URL
-const DEFAULT_URL = 'https://2fa69c04949fe7.lhr.life';
+const DEFAULT_URL = 'https://vortex-live-1.onrender.com';
 
 export const LiveWebRTCView = ({
   roomId = 'hangout-hq',

@@ -90,7 +90,7 @@ export const VoiceVideoRoom = ({
       {/* Live WebRTC Real-Time Calling Banner */}
       <TouchableOpacity
         style={styles.liveWebrtcBanner}
-        onPress={() => Linking.openURL('https://2fa69c04949fe7.lhr.life')}
+        onPress={() => Linking.openURL('https://vortex-live-1.onrender.com')}
         activeOpacity={0.8}
       >
         <View style={styles.liveWebrtcLeft}>
