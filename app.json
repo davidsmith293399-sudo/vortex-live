@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "VortexChat",
+    "slug": "vortexchat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vortexchat.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "VortexChat requires camera access for low-bandwidth video calling and media sharing.",
+        "NSMicrophoneUsageDescription": "VortexChat requires microphone access for crystal-clear low-bandwidth audio calling."
+      }
+    },
+    "android": {
+      "package": "com.vortexchat.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0E14",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b82d16fd-fb17-4633-aa93-0516913d73c0"
+      }
+    },
+    "owner": "rose123sadxsf"
+  }
+}

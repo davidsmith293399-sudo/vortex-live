@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: vortex-live-call
+    env: node
+    plan: free
+    buildCommand: npm --prefix web run build
+    startCommand: node server/index.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: PORT
+        value: 10000
