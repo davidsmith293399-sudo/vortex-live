@@ -23,7 +23,9 @@
     "tunnel": "node scripts/start-live-tunnel.js",
     "server:start": "node server/index.js",
     "web:dev": "npm --prefix web run dev",
-    "web:build": "npm --prefix web run build"
+    "web:build": "npm --prefix web run build",
+    "build": "npm --prefix server install && npm --prefix web install && npm --prefix web run build",
+    "render:start": "node server/index.js"
   },
   "private": true
 }
